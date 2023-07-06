@@ -5,10 +5,10 @@ function preload() {
   
   char1 = loadImage('https://static.miraheze.org/ccbmwikiwiki/6/60/Gutsman.png')
 
-  //char2 = loadImage('https://o.remove.bg/downloads/5b986358-8ca5-4aa4-9200-4254801ba165/char2-removebg-preview.png')
+  char2 = loadImage('https://static.miraheze.org/ccbmwikiwiki/f/fa/Maestro.png')
   
 
- // char3 = loadImage('https://o.remove.bg/downloads/bfb7f1df-71d5-4819-9c5d-8a58ec0cac50/char3-removebg-preview.png')
+  char3 = loadImage('https://pbs.twimg.com/media/ESqwndQUwAAY8TQ.png')
 
   
 }
@@ -22,7 +22,7 @@ function draw() {
 //               x.   y. 
 //                        size size
   image(char1, 30, 200, 150, 150)
-//  image(char2, 200, 210, 150, 150)
-//  image(char3, 325, 165, 200, 210)
+  image(char2, 200, 250, 75, 100)
+  image(char3, 300, 215, 125, 145)
   
 }
